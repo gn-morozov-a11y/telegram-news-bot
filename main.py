@@ -10,4 +10,4 @@ print("CHANNEL:", CHANNEL)
 bot = Bot(token=TOKEN)
 bot.send_message(chat_id=CHANNEL, text="✅ Бот успешно запущен")
 print("start")
-# restart
+
