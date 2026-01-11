@@ -14,3 +14,4 @@ feed = feedparser.parse(
 for entry in feed.entries[:3]:
     text = f"📰 {entry.title}\n\n{entry.link}"
     bot.send_message(chat_id=CHANNEL, text=text)
+# restart
